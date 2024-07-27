@@ -1,0 +1,33 @@
+package modal.entities;
+
+import java.time.LocalDate;
+import java.util.Date;
+
+public class Installment {
+	private LocalDate dueDate;
+	private Double ammout;
+
+	public Installment() {
+	}
+
+	public Installment(LocalDate localDate, Double ammout) {
+		this.dueDate = localDate;
+		this.ammout = ammout;
+	}
+
+	public LocalDate getDueDate() {
+		return dueDate;
+	}
+
+	public void setDueDate(LocalDate dueDate) {
+		this.dueDate = dueDate;
+	}
+
+	public Double getAmmout() {
+		return ammout;
+	}
+
+	public void setAmmout(Double ammout) {
+		this.ammout = ammout;
+	}
+}

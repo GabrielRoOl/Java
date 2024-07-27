@@ -1,0 +1,30 @@
+package entities;
+
+public class Juridica extends Servidor {
+
+	private Double Integer;
+
+	public Juridica() {
+		super();
+	}
+
+	public Juridica(String name, Double income, Double integer) {
+		super(name, income);
+		Integer = integer;
+	}
+
+	public Double getInteger() {
+		return Integer;
+	}
+
+	public void setInteger(Double integer) {
+		Integer = integer;
+	}
+
+	@Override
+	public Double tax() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

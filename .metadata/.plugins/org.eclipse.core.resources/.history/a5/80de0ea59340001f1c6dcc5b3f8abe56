@@ -1,0 +1,10 @@
+package herançaPolimorfismo;
+
+public class Inicio {
+
+	public static void main(String[] args) {
+		
+		// a herança permite o reuso 
+	}
+
+}

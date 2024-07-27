@@ -1,0 +1,31 @@
+package atividadesOrientadaAObjeto;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entitiesProduct.product;
+
+public class controleCaixa {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		product x1, x2, x3;
+		
+		x1 = new product();
+		x2 = new product();
+		x3 = new product();
+		
+		System.out.println("Enter product data: ");
+		System.out.println("Nome: ");
+		x1.nome = sc.next();
+		System.out.println("Price: ");
+		x1.price = sc.nextDouble();
+		System.out.println("Quantity in stock: ");
+		x1.quantity = sc.nextInt();
+
+		System.out.printf("Product data: %s, $ %.2f, %d units, Total: $ %.2f",x1.nome,x1.price,x1.totalValueInStock());
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package entitesaplication;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class Order {
+	private Date date;
+	private OrderStatus status;
+	
+	private List<OrderItem> orderItens = new ArrayList<>();
+}

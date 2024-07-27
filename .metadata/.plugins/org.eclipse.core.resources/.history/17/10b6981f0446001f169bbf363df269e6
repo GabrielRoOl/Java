@@ -1,0 +1,10 @@
+package entities;
+
+public class Serviço {
+	private String name;
+	private Double income;
+	
+	public Serviço() {
+	}
+	
+}

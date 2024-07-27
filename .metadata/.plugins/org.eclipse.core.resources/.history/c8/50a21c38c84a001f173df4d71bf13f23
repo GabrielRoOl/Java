@@ -1,0 +1,8 @@
+package modal.service;
+
+public class PaypalService {
+	
+	private OnlinePaymentService ops;
+	
+	
+}

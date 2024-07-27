@@ -1,0 +1,53 @@
+package application;
+
+import java.text.ParseException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+import java.util.InputMismatchException;
+import java.util.Locale;
+import java.util.Scanner;
+
+import model.entities.Vehicle;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter rental data: ");
+
+		try {
+			System.out.print("Car model: ");
+			String carModel = sc.nextLine();
+			
+			System.out.print("Pickup (dd/MM/yyyy hh:ss): ");
+			LocalDateTime start = LocalDateTime.parse(sc.nextLine(), dtf);
+			
+			System.out.print("Return (dd/MM/yyyy hh:ss): ");
+			LocalDateTime finish = LocalDateTime.parse(sc.nextLine(), dtf);
+
+			System.out.print("Enter price per hour: ");
+			Double priceHour = sc.nextDouble();
+			
+			System.out.print("Enter price per day: ");
+			Double priceDay = sc.nextDouble();
+			
+			// instancie aqui
+			Vehicle model = new Vehicle(carModel);
+			
+			System.out.println("\nINVOICE:");
+			
+			
+			
+		}
+		catch(InputMismatchException e) {
+			System.out.println("Invalid input. Please enter a integer.");
+		}
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package modal.entities;
+
+import modal.entities.OnlinePaymentService;
+
+public class PaypalService {
+	
+	private OnlinePaymentService ops;
+	
+	
+}

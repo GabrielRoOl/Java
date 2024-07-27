@@ -1,0 +1,30 @@
+package application;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String[] vect = sc.nextLine().split(" "); // Vai ser varios  dados por linha, separados por um espaço em branco
+		int position = sc.nextInt();
+		
+		System.out.println(vect[position]);
+		
+		System.out.println("Fim programa.");
+		
+		
+		
+		
+		
+		
+		// InputMismatchException = Letra no lugar de número, ArrayIndexOutOfBoundsException = número maior que o vetor
+		
+		
+		sc.close();
+
+	}
+
+}

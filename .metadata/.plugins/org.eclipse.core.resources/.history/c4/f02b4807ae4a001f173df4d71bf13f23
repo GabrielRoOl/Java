@@ -1,0 +1,10 @@
+package modal.services;
+
+public class RentalService {
+	  private Double priceHour;
+	  private Double priceDay;
+	   
+	  
+	  public RentalService() {
+	  }
+}

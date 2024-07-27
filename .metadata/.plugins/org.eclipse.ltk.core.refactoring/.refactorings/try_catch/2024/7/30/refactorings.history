@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ProgramOpenFile.java&apos; to &apos;application.Program.java&apos;&#x0D;&#x0A;- Original project: &apos;try_catch&apos;&#x0D;&#x0A;- Destination element: &apos;application.Program.java&apos;&#x0D;&#x0A;- Original element: &apos;application.ProgramOpenFile.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=arquivos/src&lt;application{Program.java" element1="/src&lt;application{ProgramOpenFile.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1721913245059" units="1" version="1.0"/>
+</session>

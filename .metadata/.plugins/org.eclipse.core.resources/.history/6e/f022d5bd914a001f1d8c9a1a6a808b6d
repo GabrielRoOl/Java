@@ -1,0 +1,48 @@
+package application;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm");
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter rental data: ");
+
+		try {
+			System.out.print("Car model: ");
+			String car = sc.nextLine();
+			
+			System.out.print("Pickup (dd/MM/yyyy hh:ss): ");
+			Date pickUp = sdf.parse(sc.nextLine());
+			
+			System.out.print("Return (dd/MM/yyyy hh:ss): ");
+			Date returned = sdf.parse(sc.nextLine());
+
+			System.out.print("Enter price per hour: ");
+			Double priceHour = sc.nextDouble();
+			
+			System.out.print("Enter price per day: ");
+			Double priceDay = sc.nextDouble();
+			
+			// instancie aqui
+			
+			System.out.println("\nINVOICE:");
+			
+			
+			
+		}
+		catch(ParseException e) {
+			System.out.println("Incorrect format.");
+		}
+
+	}
+
+}
