@@ -1,0 +1,10 @@
+package entities;
+
+public abstract class Servidor {
+	private String name;
+	private Double income;
+	
+	public Servidor() {
+	}
+	
+}

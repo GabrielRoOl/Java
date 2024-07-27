@@ -1,0 +1,19 @@
+package teste;
+import java.util.Scanner;
+
+public class Scan {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double x;
+		x = sc.nextDouble();
+		
+		System.out.printf("Digitou %f\n", x);
+		
+		sc.close();
+	}
+
+}

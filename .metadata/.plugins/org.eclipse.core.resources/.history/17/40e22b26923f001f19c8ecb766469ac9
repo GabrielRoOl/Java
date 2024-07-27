@@ -1,0 +1,5 @@
+package entitesaplication.enums;
+
+public enum OrderStatus {
+
+}

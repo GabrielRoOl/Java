@@ -1,0 +1,29 @@
+package data;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class Instanciação {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		LocalDate data = LocalDate.now();
+		LocalDateTime dataHora = LocalDateTime.now();
+		Instant dataHoraMarco0 = Instant.now();
+		
+		LocalDate dataEscrita = LocalDate.parse("2024-06-19");
+		LocalDateTime dataHoraEscrita = LocalDateTime.parse("2024-06-19T14:24:59");
+		Instant dataHoraMarco0Escrita = Instant.parse("2024-06-30T17:27:21Z");
+		
+		System.out.println(data);
+		System.out.println(dataHora);
+		System.out.println(dataHoraMarco0);
+		System.out.println(dataEscrita);
+		System.out.println(dataHoraEscrita);
+		System.out.println(dataHoraMarco0Escrita);
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package data;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class Formatação {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+		LocalDateTime dataHoraEscrita = LocalDateTime.parse("2024-06-19T14:24:59");
+		Instant dataHoraMarco0Escrita = Instant.parse("2024-06-30T17:27:21Z");
+		Instant dataHoraMarco0Escrita_3 = Instant.parse("2024-06-30T17:27:21-03:00");
+
+		// https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html
+		
+		
+		DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyy");
+		
+		System.out.println(dataHoraEscrita);
+		
+	
+	}
+
+}

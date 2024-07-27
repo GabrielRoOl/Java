@@ -1,0 +1,13 @@
+package modal.service;
+
+public class PaypalService {
+	
+	private OnlinePaymentService ops;
+	
+	public Double paymentFee(Double amount) {
+		return 
+	}
+	public Double interes(Double amount, Integer months);
+	
+	
+}

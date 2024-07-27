@@ -1,0 +1,7 @@
+package entities;
+
+public class OutsourcedEmployee extends Employee{
+	public Double additionalCharge() {
+		return super.payment() + (super.payment() * 100 / 110);
+	}
+}

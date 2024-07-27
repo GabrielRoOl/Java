@@ -1,0 +1,26 @@
+package teste;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Scan {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		char y;
+		double x;
+		int i;
+		y = sc.next().charAt(0);
+		x = sc.nextDouble();
+		i = sc.nextInt();
+		System.out.printf("Você digitou: %s\n", y);
+		
+		System.out.printf("Você digitou: %.2f\n", x);
+
+		System.out.printf("Você digitou: %d\n", i);
+		sc.close();
+	}
+
+}

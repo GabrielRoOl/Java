@@ -1,0 +1,22 @@
+package data;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class Instanciação {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		LocalDate data = LocalDate.now();
+		LocalDateTime d02 = LocalDateTime.now();
+		Instant d03 = Instant.now();
+		
+		System.out.println(data);
+		System.out.println(d02);
+		System.out.println(d03);
+
+	}
+
+}
