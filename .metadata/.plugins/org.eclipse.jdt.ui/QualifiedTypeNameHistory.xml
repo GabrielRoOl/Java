@@ -20,7 +20,8 @@
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
     <fullyQualifiedTypeName name="modal.entities.Contract"/>
-    <fullyQualifiedTypeName name="modal.service.OnlinePaymentService"/>
-    <fullyQualifiedTypeName name="modal.entities.Installment"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="modal.entities.Installment"/>
+    <fullyQualifiedTypeName name="modal.service.OnlinePaymentService"/>
+    <fullyQualifiedTypeName name="modal.entities.PaypalService"/>
 </qualifiedTypeNameHistroy>
