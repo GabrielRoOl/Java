@@ -24,4 +24,7 @@
     <fullyQualifiedTypeName name="modal.entities.Installment"/>
     <fullyQualifiedTypeName name="modal.service.OnlinePaymentService"/>
     <fullyQualifiedTypeName name="modal.entities.PaypalService"/>
+    <fullyQualifiedTypeName name="modal.entities.Shape"/>
+    <fullyQualifiedTypeName name="modal.entities.Rectangle"/>
+    <fullyQualifiedTypeName name="modal.enums.Color"/>
 </qualifiedTypeNameHistroy>
