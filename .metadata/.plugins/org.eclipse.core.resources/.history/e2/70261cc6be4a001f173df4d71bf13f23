@@ -1,8 +1,0 @@
-package modal.entities;
-
-public class PaypalService {
-	
-	private OnlinePaymentService ops;
-	
-	
-}

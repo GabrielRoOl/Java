@@ -1,5 +1,0 @@
-package modal.service;
-
-public interface PaypalService {
-
-}
