@@ -4,7 +4,6 @@ import java.util.Locale;
 import java.util.Scanner;
 
 import entites.PrintService;
-import entites.PrintServiceString;
 
 public class Program {
 
@@ -13,18 +12,23 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		PrintServiceString ps = new PrintServiceString();
+		PrintService<Integer> ps = new PrintService<>();
 		
 		System.out.print("How many values: ");
 		int n = sc.nextInt();
+		
+		// ps.addValue("João"); This code will no longer work
+		
 		for(int i = 0; i < n; i++) {
-			String value = sc.next();
+			Integer value = sc.nextInt(); 
 			ps.addValue(value);
 		}
 		
 		ps.print();
 		
-		System.out.println("First: " + ps.first());
+		Integer x = /*(Integer)*/ps.first();	// No casting is necessary
+		
+		System.out.println("First: " + x);
 		
 		sc.close();
 		
