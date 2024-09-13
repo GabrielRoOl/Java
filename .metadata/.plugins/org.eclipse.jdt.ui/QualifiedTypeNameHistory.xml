@@ -17,7 +17,6 @@
     <fullyQualifiedTypeName name="java.time.Duration"/>
     <fullyQualifiedTypeName name="modal.entities.OnlinePaymentService"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
     <fullyQualifiedTypeName name="modal.entities.Contract"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
@@ -27,4 +26,21 @@
     <fullyQualifiedTypeName name="modal.entities.Shape"/>
     <fullyQualifiedTypeName name="modal.entities.Rectangle"/>
     <fullyQualifiedTypeName name="modal.enums.Color"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="devices.Scanner"/>
+    <fullyQualifiedTypeName name="devices.ComboDevice"/>
+    <fullyQualifiedTypeName name="entities.BrazilInterestService"/>
+    <fullyQualifiedTypeName name="java.security.InvalidParameterException"/>
+    <fullyQualifiedTypeName name="entites.PrintService"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="entities.CalculationService"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+    <fullyQualifiedTypeName name="entities.Shape"/>
+    <fullyQualifiedTypeName name="entities.Rectangle"/>
+    <fullyQualifiedTypeName name="entities.Circle"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
