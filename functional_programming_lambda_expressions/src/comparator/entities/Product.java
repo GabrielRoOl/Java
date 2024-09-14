@@ -28,6 +28,10 @@ public class Product {
 		this.price = price;
 	}
 
+	public static boolean statictProductPredcate(Product p) {
+		return p.getPrice() >= 100;
+	}
+	
 	@Override
 	public String toString() {
 		return "Product name = " + name + ", price = " + price;

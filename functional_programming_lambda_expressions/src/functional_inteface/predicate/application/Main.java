@@ -17,7 +17,7 @@ public class Main {
 		list.add(new Product("Mouse", 50.00));
 		list.add(new Product("HD Case", 80.90));
 
-		list.removeIf(new ProductPredict());
+		list.removeIf(Product::statictProductPredcate);
 		
 		for(Product p : list) {
 			System.out.println(p);
