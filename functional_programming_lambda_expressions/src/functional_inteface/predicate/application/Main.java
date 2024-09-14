@@ -2,9 +2,9 @@ package functional_inteface.predicate.application;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 
 import comparator.entities.Product;
-import functional_inteface.predicate.entities.util.ProductPredict;
 
 public class Main {
 
@@ -17,7 +17,12 @@ public class Main {
 		list.add(new Product("Mouse", 50.00));
 		list.add(new Product("HD Case", 80.90));
 
-		list.removeIf(Product::nonStaticProductPredicate);
+		
+		double min = 100.0;
+		
+		Predicate<Product> pred = p -> p.getPrice() >= min;
+		
+		list.removeIf(pred);
 		
 		for(Product p : list) {
 			System.out.println(p);
