@@ -2,6 +2,7 @@ package function_receivinh_function_as_argument.application;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 
 import comparator.entities.Product;
 import function_receivinh_function_as_argument.services.ProductServices;
@@ -20,7 +21,7 @@ public class Main {
 		
 		ProductServices ps = new ProductServices();
 		
-		double sum = ps.filteredSum(list);
+		double sum = ps.filteredSum(list, p -> p.getPrice() < 100.00);
 		
 		System.out.println("Sum = " + String.format("%.2f", sum));
 	}
