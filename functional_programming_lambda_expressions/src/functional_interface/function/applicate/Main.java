@@ -1,4 +1,4 @@
-package function_interface.function.applicate;
+package functional_interface.function.applicate;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,5 +22,5 @@ public class Main {
 		
 		names.forEach(System.out::println);
 		
-	}
+	} 
 }

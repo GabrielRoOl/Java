@@ -1,4 +1,4 @@
-package function_interface.consumer.application;
+package functional_interface.consumer.application;
 
 import java.util.ArrayList;
 import java.util.List;
