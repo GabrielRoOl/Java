@@ -2,6 +2,7 @@ package function_interface.consumer.application;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 
 import comparator.entities.Product;
 
@@ -14,7 +15,11 @@ public class Main {
 		list.add(new Product("Mouse", 50.00));
 		list.add(new Product("HD Case", 80.90));
 		
-		list.forEach(Product::nonStaticPriceUpDate);
+		double factor = 1.1;
+		
+		Consumer<Product> cons = p -> p.setPrice(p.getPrice() * factor);
+		
+		list.forEach(cons);
 		
 		list.forEach(System.out::println);;
 	}
