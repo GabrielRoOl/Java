@@ -1,11 +1,11 @@
-package function_receivinh_function_as_argument.application;
+package function_receiving_function_as_argument.application;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
 import comparator.entities.Product;
-import function_receivinh_function_as_argument.services.ProductServices;
+import function_receiving_function_as_argument.services.ProductServices;
 
 public class Main {
 
