@@ -32,14 +32,24 @@ public class Product {
 		return p.getPrice() >= 100;
 	}
 	
+	// metodo não estatico
 	public boolean nonStaticProductPredicate() {
 		return this.price >= 100;
 	}
 	
+	// alterando preço com o metodo não estatico
+	public void nonStaticPriceUpDate() {
+		price = price * 1.1;
+	}
+	
+	// metodo não estático
+	public String nonStaticUpperCaseName() {
+		return name.toUpperCase();
+	}
 	
 	@Override
 	public String toString() {
-		return "Product name = " + name + ", price = " + price;
+		return "Product = " + name + ", price: " + String.format("%.2f", price);
 	}
 	
 	
