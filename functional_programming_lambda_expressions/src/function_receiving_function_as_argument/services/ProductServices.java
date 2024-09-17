@@ -1,4 +1,4 @@
-package function_receivinh_function_as_argument.services;
+package function_receiving_function_as_argument.services;
 
 import java.util.List;
 import java.util.function.Predicate;
