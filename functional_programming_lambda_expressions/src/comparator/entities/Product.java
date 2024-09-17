@@ -36,6 +36,9 @@ public class Product {
 		return this.price >= 100;
 	}
 	
+	public static void staticPriceUpDate(Product p) {
+		p.setPrice(p.getPrice() * 1.1);
+	}
 	
 	@Override
 	public String toString() {

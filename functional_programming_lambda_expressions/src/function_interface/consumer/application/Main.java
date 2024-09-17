@@ -15,7 +15,7 @@ public class Main {
 		list.add(new Product("Mouse", 50.00));
 		list.add(new Product("HD Case", 80.90));
 		
-		list.forEach(new PriceUpdate());
+		list.forEach(Product::staticPriceUpDate);
 		
 		list.forEach(System.out::println);;
 	}
