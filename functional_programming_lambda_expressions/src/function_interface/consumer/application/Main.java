@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import comparator.entities.Product;
-import function_interface.consumer.util.PriceUpdate;
 
 public class Main {
 	public static void main(String[] args) {
@@ -15,7 +14,7 @@ public class Main {
 		list.add(new Product("Mouse", 50.00));
 		list.add(new Product("HD Case", 80.90));
 		
-		list.forEach(Product::staticPriceUpDate);
+		list.forEach(Product::nonStaticPriceUpDate);
 		
 		list.forEach(System.out::println);;
 	}
