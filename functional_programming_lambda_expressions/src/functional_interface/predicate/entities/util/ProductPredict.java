@@ -1,4 +1,4 @@
-package functional_inteface.predicate.entities.util;
+package functional_interface.predicate.entities.util;
 
 import java.util.function.Predicate;
 
