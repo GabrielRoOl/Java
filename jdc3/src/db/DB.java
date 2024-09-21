@@ -47,7 +47,7 @@ public class DB {
 		}
 	}
 
-	public static void closeStatemente(Statement st) {
+	public static void closeStatement(Statement st) {
 		if (st != null) {
 			try {
 				st.close();
@@ -66,14 +66,5 @@ public class DB {
 			}
 		}
 	}
-	
-	public static void closePreparedStatement(PreparedStatement ps) {
-		if(ps != null) {
-			try {
-				ps.close();
-			} catch(SQLException e) {
-				throw new DbException(e.getMessage());
-			}
-		}
-	}
+
 }
