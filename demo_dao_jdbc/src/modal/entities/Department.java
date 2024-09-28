@@ -1,8 +1,11 @@
 package modal.entities;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Department {
+public class Department implements Serializable {
+
+	private static final long serialVersionUID = 1L;
 
 	private Integer id;
 	private String name;
@@ -50,6 +53,6 @@ public class Department {
 
 	@Override
 	public String toString() {
-		return "id = " + id + " name = " + name;
+		return "Id: " + id + ", Name: " + name;
 	}
 }
